@@ -1,0 +1,10 @@
+import GoGolib.GoGoMon;
+
+var gogo:GoGoMon = new GoGoMon();
+
+beep_bt.addEventListener(MouseEvent.CLICK,beep);
+function beep(e:Event){
+gogo.beep();
+}
+
+gogo.addBeepResponseListener(function(str:String){trace(str);});
