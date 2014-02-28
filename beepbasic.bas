@@ -1,0 +1,4 @@
+OPEN "com11:9600,n,8,1,DS," FOR RANDOM AS #3
+WRITE #3, beep$
+CLOSE #3
+SYSTEM 
