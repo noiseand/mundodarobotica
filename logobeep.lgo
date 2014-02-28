@@ -1,0 +1,7 @@
+to start
+loop [
+make "var0 random%10
+wait :var0
+beep
+]
+end
