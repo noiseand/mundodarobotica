@@ -1,0 +1,6 @@
+#LB7#API Biblioteca, "GoGoBurst.dll"
+API NomeFuncao, "connect"
+
+API Execute, "connect, 5"
+Escreva Retorno
+#%
