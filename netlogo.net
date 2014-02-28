@@ -1,0 +1,5 @@
+extensions [gogo]
+
+gogo:open "COM3"
+
+gogo:beep
